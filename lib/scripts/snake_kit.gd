@@ -38,7 +38,7 @@ func _ready() -> void:
 	_init_snake()
 
 func _init_snake():
-	for i in range(0, 2):
+	for i in range(0, 3):
 		var segment = spawn_segment(Vector2i(MAX_X / 2, MAX_Y / 2) + Vector2i.DOWN * i)
 		snake.push_back(segment)
 

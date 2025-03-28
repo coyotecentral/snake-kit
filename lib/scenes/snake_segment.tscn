@@ -8,7 +8,7 @@ size = Vector2(16, 16)
 [node name="SnakeSegment" type="Node2D"]
 top_level = true
 script = ExtResource("1_1sg3p")
-segment_color = Color(0.92549, 0.937255, 0.956863, 1)
+tile_color = null
 
 [node name="Area2D" type="Area2D" parent="." groups=["snake"]]
 
